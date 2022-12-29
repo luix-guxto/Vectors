@@ -1,7 +1,7 @@
 package luix.guxto.br.vectors;
 
 @SuppressWarnings("unused")
-public class VectorOperations{
+public final class VectorOperations{
 
     private static final long serialVersionUID = 1L;
 
