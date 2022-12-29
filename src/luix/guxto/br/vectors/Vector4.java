@@ -2,10 +2,12 @@ package luix.guxto.br.vectors;
 
 @SuppressWarnings("unused")
 public final class Vector4<E>{
-
     private static final long serialVersionUID = 1L;
 
     public E x;
+    public E y;
+    public E z;
+    public E w;
 
     @Override
     public String toString() {
@@ -16,10 +18,6 @@ public final class Vector4<E>{
                 ", w=" + w +
                 '}';
     }
-
-    public E y;
-    public E z;
-    public E w;
 
     public Vector4(E x, E y, E z, E w) {
         this.x = x;

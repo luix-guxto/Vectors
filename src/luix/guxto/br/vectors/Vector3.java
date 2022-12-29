@@ -2,11 +2,11 @@ package luix.guxto.br.vectors;
 
 @SuppressWarnings("unused")
 public final class Vector3<E>{
-
-
     private static final long serialVersionUID = 1L;
 
     public E x;
+    public E y;
+    public E z;
 
     @Override
     public String toString() {
@@ -16,9 +16,6 @@ public final class Vector3<E>{
                 ", z=" + z +
                 '}';
     }
-
-    public E y;
-    public E z;
 
     public Vector3(E x, E y, E z) {
         this.x = x;
